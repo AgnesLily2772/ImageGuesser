@@ -1,0 +1,35 @@
+.header
+{
+    background-color: navy;
+    padding: 10px;
+    color: ivory;
+}
+.content{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.pred{
+  color: navy;
+}
+.predCard
+{
+  margin-top: 30px;
+}
+
+.imgg{
+  width: 500px;
+}
+.inputTag{
+  margin-top: 30px;
+}
+@media only screen and (max-width : 480px) {
+  
+  .content{
+    display: grid;
+    grid-template-columns: auto;
+  } 
+  .imgg{
+    width: 100%;
+
+  }
+}
